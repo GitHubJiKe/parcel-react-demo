@@ -1,0 +1,14 @@
+.APP{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.image{
+  position: relative;
+  display: inline-block;
+  width: 432px;
+  height: 404px;
+  background: url('../assets/Sakyamuni.jpg') no-repeat;
+}
