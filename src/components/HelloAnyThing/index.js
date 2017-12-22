@@ -4,7 +4,7 @@ import img from '../../assets/Sakyamuni.jpg';
 
 
 
-const HelloAnyThing = styled.div`
+const HelloAnyThing = styled.h2`
   color:red;
   font-size:20pt;
 `

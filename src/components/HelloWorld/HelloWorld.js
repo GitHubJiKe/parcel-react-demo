@@ -9,7 +9,7 @@ class HelloWorld extends Component {
 
   render() {
     return (
-      <div className="hello-world">HelloWorld</div>
+      <h1 className="hello-world">HelloWorld</h1>
     );
   }
 }

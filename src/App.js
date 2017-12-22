@@ -11,7 +11,7 @@ export default class App extends Component {
   render() {
     return (<div className="APP">
       <HelloWorld />
-      <HelloAnyThing>HelloAnyThing</HelloAnyThing>
+      <HelloAnyThing>Hello Parcel & React</HelloAnyThing>
       <div className="image"></div>
       <ImageView />
     </div>);

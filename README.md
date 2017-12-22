@@ -1,6 +1,8 @@
 # parcel-react-demo 
 [项目地址](!https://github.com/GitHubJiKe/parcel-react-demo)
 
+![效果图](https://user-gold-cdn.xitu.io/2017/12/22/1607e2c7fc25def7?imageView2/1/w/1304/h/734/q/85/format/webp/interlace/1)
+
 ## parcel
 [官网](!https://parceljs.org/)
 
