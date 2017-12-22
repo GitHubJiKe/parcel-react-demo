@@ -1,8 +1,8 @@
-# parcel-react-demo
-> [项目地址](!https://github.com/GitHubJiKe/parcel-react-demo)
+# parcel-react-demo 
+[项目地址](!https://github.com/GitHubJiKe/parcel-react-demo)
 
 ## parcel
-> [官网](!https://parceljs.org/)
+[官网](!https://parceljs.org/)
 
 ```
 Parcel 是一个网络应用打包工具, 
@@ -12,7 +12,7 @@ Parcel 是一个网络应用打包工具,
 ```
 
 ## React
-> [官网](!https://reactjs.org/)
+[官网](!https://reactjs.org/)
 
 ```
 A JavaScript library
