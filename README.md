@@ -1,6 +1,6 @@
 # parcel-react-demo 
 
-[项目地址](!https://github.com/GitHubJiKe/parcel-react-demo)
+<a href="https://github.com/GitHubJiKe/parcel-react-demo">项目地址</a>
 
 ## parcel
 [官网](!https://parceljs.org/)
