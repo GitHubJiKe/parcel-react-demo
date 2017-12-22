@@ -3,7 +3,7 @@
 <a href="https://github.com/GitHubJiKe/parcel-react-demo">项目地址</a>
 
 ## parcel
-[官网](!https://parceljs.org/)
+<a href="https://parceljs.org/">官网</a>
 
 ```
 Parcel 是一个网络应用打包工具, 
@@ -13,7 +13,7 @@ Parcel 是一个网络应用打包工具,
 ```
 
 ## React
-[官网](!https://reactjs.org/)
+<a href="https://reactjs.org/">官网</a>
 
 ```
 A JavaScript library
