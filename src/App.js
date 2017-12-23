@@ -1,21 +1,12 @@
 import React, { Component } from 'react'
 import { observer } from "mobx-react";
 import DevTools from 'mobx-react-devtools'
-import HelloWorld from './components/HelloWorld'
-import { HelloAnyThing, ImageView } from './components/HelloAnyThing'
 import ToDo from './components/ToDo'
-import { store, toDo } from './store'
+import { store } from './store'
+
+
 const TEXT = 'please input something...';
-
-class ToDoList extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return this.props.todos.map(t => <ToDo key={t.id} todo={t} store={store} />);
-  }
-}
+const ToDoList = ({ todos }) => todos.map(t => <ToDo key={t.id} todo={t} store={store} />);
 
 @observer export default class App extends Component {
   constructor(props) {

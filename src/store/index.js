@@ -1,5 +1,4 @@
 import { observable, autorun, computed, action } from 'mobx';
-import ToDo from '../components/ToDo/index';
 
 
 class toDo {
@@ -9,18 +8,17 @@ class toDo {
 }
 
 class todoStore {
-  /* 一些观察的状态 */
   @observable todos = [];
 
-  /* 推导值 */
   @computed get completedCount() {
     return this.todos.filter(todo => todo.completed).length;
   }
+
   @computed get totalCount() {
     return this.todos.length;
   }
 
-  @action.bound completed(id) {
+  @action.bound toggleCompleted(id) {
     this.todos.forEach(todo => {
       if (todo.id === id) todo.completed = !todo.completed;
     })
@@ -35,4 +33,5 @@ class todoStore {
 };
 
 const store = new todoStore();
-export { toDo, store }
+
+export { store }
