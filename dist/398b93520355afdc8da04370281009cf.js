@@ -23570,10 +23570,10 @@ var ToDo = (0, _mobxReact.observer)(_class = function (_Component) {
   _createClass(ToDo, [{
     key: "render",
     value: function render() {
-      var todo = this.props.todo;
-      var title = todo.title,
-          id = todo.id,
-          completed = todo.completed;
+      var _props = this.props,
+          title = _props.title,
+          id = _props.id,
+          completed = _props.completed;
 
       return _react2.default.createElement(
         "div",
@@ -23604,6 +23604,8 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _class;
 
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
 var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
@@ -23632,7 +23634,7 @@ var TEXT = 'please input something...';
 var ToDoList = function ToDoList(_ref) {
   var todos = _ref.todos;
   return todos.map(function (t) {
-    return _react2.default.createElement(_ToDo2.default, { key: t.id, todo: t, store: _store.store });
+    return _react2.default.createElement(_ToDo2.default, _extends({ key: t.id }, t));
   });
 };
 

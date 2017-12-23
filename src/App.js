@@ -6,7 +6,7 @@ import { store } from './store'
 
 
 const TEXT = 'please input something...';
-const ToDoList = ({ todos }) => todos.map(t => <ToDo key={t.id} todo={t} store={store} />);
+const ToDoList = ({ todos }) => todos.map(t => <ToDo key={t.id} {...t} />);
 
 @observer export default class App extends Component {
   constructor(props) {

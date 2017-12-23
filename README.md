@@ -49,7 +49,7 @@ npm install -g parcel-bundler
 
 ******
 
-#Mobx 初探
+# Mobx 初探
 ## 什么是Mobx
 > [官网](http://cn.mobx.js.org/)
 > [github-mobx](https://github.com/mobxjs/mobx)

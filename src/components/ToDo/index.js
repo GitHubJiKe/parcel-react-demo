@@ -9,8 +9,7 @@ import './style.css'
   }
 
   render() {
-    let { todo } = this.props;
-    const { title, id, completed } = todo;
+    const { title, id, completed } = this.props;
     return (<div
       className={`todo ${completed ? 'completed' : ''}`}
       onClick={() => store.toggleCompleted(id)}
