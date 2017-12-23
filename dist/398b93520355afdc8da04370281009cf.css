@@ -1,5 +1,14 @@
 .hello-world{
   color: aqua;
+}.todo{
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 3px;
+}
+
+.todo.completed{
+  background-color: brown;
 }.APP{
   margin: 0;
   border: 0;

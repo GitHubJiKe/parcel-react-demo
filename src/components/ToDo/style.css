@@ -1,0 +1,10 @@
+.todo{
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 3px;
+}
+
+.todo.completed{
+  background-color: brown;
+}
