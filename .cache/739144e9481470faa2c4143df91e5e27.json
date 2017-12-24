@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e){return(e=e||document).scrollingElement?e.scrollingElement:t||\"CSS1Compat\"!==e.compatMode?e.body:e.documentElement}var t=\"undefined\"!=typeof navigator&&navigator.userAgent.indexOf(\"AppleWebKit\")>-1;module.exports=e;"},"hash":"5067807ad8ce72d96107ef1e033f055b"}

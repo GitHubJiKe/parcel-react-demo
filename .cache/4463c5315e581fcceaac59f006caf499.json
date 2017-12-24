@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e){var r=Array.isArray(e)?e:[e],t=r.join(\"\").replace(/(\\$|\\^)/g,\"\\\\$1\");return r.length>1&&(t=\"[\"+t+\"]\"),new RegExp(\"(\\\\s|^)(\"+t+\")[^\\\\s]*\",\"g\")}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e;"},"hash":"6514e9d4fa8fb02f8c4e539ac66005ba"}

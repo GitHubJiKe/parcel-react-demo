@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./Collapse","loc":{"line":1,"column":21}}],"generated":{"js":"\"use strict\";function e(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.Panel=void 0;var t=require(\"./Collapse\"),r=e(t);exports.default=r.default;var l=exports.Panel=r.default.Panel;"},"hash":"87e7d87068c35d3c247b6e5548f4e76b"}

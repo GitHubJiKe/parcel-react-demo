@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e,t){var n=e.getBoundingClientRect();if(n.width||n.height){var r=t||e.parentElement;return{top:n.top-r.clientTop,left:n.left-r.clientLeft}}return n}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e;"},"hash":"d4e2582774b8605bb85c27e2f6a403d2"}

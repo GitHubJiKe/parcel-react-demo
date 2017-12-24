@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./CharacterMetadata","loc":{"line":16,"column":32}}],"generated":{"js":"\"use strict\";function t(t,e,a,s){for(var c=t.getCharacterList();e<a;)c=c.set(e,r.applyEntity(c.get(e),s)),e++;return t.set(\"characterList\",c)}var r=require(\"./CharacterMetadata\");module.exports=t;"},"hash":"5691d493676568dad98bb9c90ad172b8"}

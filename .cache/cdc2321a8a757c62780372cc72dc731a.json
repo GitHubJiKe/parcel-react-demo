@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./getFragmentFromSelection","loc":{"line":15,"column":39}}],"generated":{"js":"\"use strict\";function t(t,r){t._latestEditorState.getSelection().isCollapsed()?r.preventDefault():t.setClipboard(e(t._latestEditorState))}var e=require(\"./getFragmentFromSelection\");module.exports=t;"},"hash":"e92070fec26fbb42e5e565104cd65008"}

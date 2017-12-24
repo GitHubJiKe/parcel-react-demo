@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_getNative","loc":{"line":1,"column":24}},{"name":"./_root","loc":{"line":2,"column":19}}],"generated":{"js":"var e=require(\"./_getNative\"),r=require(\"./_root\"),o=e(r,\"Promise\");module.exports=o;"},"hash":"234a3c06522eaa622ec80bacc6b422ef"}

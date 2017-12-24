@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e,t){var r,g=e.getSelection(),o=g.getStartKey(),f=g.getStartOffset(),n=e.getCurrentContent(),s=o;return t>n.getBlockForKey(o).getText().length-f?(s=n.getKeyAfter(o),r=0):r=f+t,g.merge({focusKey:s,focusOffset:r})}module.exports=e;"},"hash":"201e8a7b38909ea794ac95461741bed5"}

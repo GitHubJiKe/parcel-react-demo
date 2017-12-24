@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./getElementRect","loc":{"line":12,"column":29}}],"generated":{"js":"\"use strict\";function t(t){var r=e(t);return{x:r.left,y:r.top,width:r.right-r.left,height:r.bottom-r.top}}var e=require(\"./getElementRect\");module.exports=t;"},"hash":"945944d488c65e404f7ac3661d73b44a"}

@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e,t){e._internalDrag=!1,e.setMode(\"drag\"),t.preventDefault()}module.exports=e;"},"hash":"fd36d305b25a6167c82fafdbc9b296cf"}

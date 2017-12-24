@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"dom-matches","loc":{"line":5,"column":22}}],"generated":{"js":"var e=require(\"dom-matches\");module.exports=function(r,o,t){for(t=t||document,r={parentNode:r};(r=r.parentNode)&&r!==t;)if(e(r,o))return r};"},"hash":"d82f27b5c2b6c2f36dcf640d8a33cc09"}

@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e){var t=e.getBoundingClientRect();return{top:t.top+window.pageYOffset,left:t.left+window.pageXOffset}}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e;"},"hash":"cfa11b1f2247cbfacc387c58bb5ebc2f"}

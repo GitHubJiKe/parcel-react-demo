@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"setimmediate","loc":{"line":14,"column":8}}],"generated":{"js":"var global = (1,eval)(\"this\");\nvar e=(0,eval)(\"this\");require(\"setimmediate\"),module.exports=e.setImmediate;"},"hash":"8c5b1985e626c30d1837f869acf6160e"}

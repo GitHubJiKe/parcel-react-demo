@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_baseAssignValue","loc":{"line":1,"column":30}},{"name":"./eq","loc":{"line":2,"column":17}}],"generated":{"js":"function e(e,a,t){var n=e[a];i.call(e,a)&&o(n,t)&&(void 0!==t||a in e)||r(e,a,t)}var r=require(\"./_baseAssignValue\"),o=require(\"./eq\"),a=Object.prototype,i=a.hasOwnProperty;module.exports=e;"},"hash":"bdc4bd4638ece1d8bb06ff0980009679"}

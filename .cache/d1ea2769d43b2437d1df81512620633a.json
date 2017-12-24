@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_nativeCreate","loc":{"line":1,"column":27}}],"generated":{"js":"function e(e){var t=this.__data__;return r?void 0!==t[e]:a.call(t,e)}var r=require(\"./_nativeCreate\"),t=Object.prototype,a=t.hasOwnProperty;module.exports=e;"},"hash":"10a94ab474164329876f9c303ca8798b"}

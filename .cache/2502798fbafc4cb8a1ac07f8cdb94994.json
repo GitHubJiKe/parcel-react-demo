@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function e(e){return e.split(\"/\")}var r={isImage:function(r){return\"image\"===e(r)[0]},isJpeg:function(t){var i=e(t);return r.isImage(t)&&(\"jpeg\"===i[1]||\"pjpeg\"===i[1])}};module.exports=r;"},"hash":"2dcab71959b832cd28071a7aabf5db6e"}

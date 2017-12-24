@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"shallowequal","loc":{"line":12,"column":27}}],"generated":{"js":"function e(e,o,r){return!t(e.props,o)||!t(e.state,r)}var t=require(\"shallowequal\"),o={shouldComponentUpdate:function(t,o){return e(this,t,o)}};module.exports=o;"},"hash":"6047f0714298a198631987abc967d9eb"}

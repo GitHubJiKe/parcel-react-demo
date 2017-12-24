@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./getContentStateFragment","loc":{"line":15,"column":38}}],"generated":{"js":"\"use strict\";function e(e){var n=e.getSelection();return n.isCollapsed()?null:t(e.getCurrentContent(),n)}var t=require(\"./getContentStateFragment\");module.exports=e;"},"hash":"209a2fd4d54da2a9ce375f7e7284e942"}

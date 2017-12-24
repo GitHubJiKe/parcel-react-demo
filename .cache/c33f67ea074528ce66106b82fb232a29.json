@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./_getNative","loc":{"line":1,"column":24}},{"name":"./_root","loc":{"line":2,"column":19}}],"generated":{"js":"var e=require(\"./_getNative\"),r=require(\"./_root\"),a=e(r,\"WeakMap\");module.exports=a;"},"hash":"4cf8c0974dbe9e5820a84aaf849fb749"}
