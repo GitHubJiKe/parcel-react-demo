@@ -129,7 +129,7 @@ var Item = function (_React$Component) {
             );
             var mainContent = grid ? React.createElement(
                 Col,
-                { span: getGrid(grid, 'column'), xs: getGrid(grid, 'xs'), sm: getGrid(grid, 'sm'), md: getGrid(grid, 'md'), lg: getGrid(grid, 'lg'), xl: getGrid(grid, 'xl') },
+                { span: getGrid(grid, 'column'), xs: getGrid(grid, 'xs'), sm: getGrid(grid, 'sm'), md: getGrid(grid, 'md'), lg: getGrid(grid, 'lg'), xl: getGrid(grid, 'xl'), xxl: getGrid(grid, 'xxl') },
                 React.createElement(
                     'div',
                     _extends({}, others, { className: classString }),
@@ -162,7 +162,8 @@ Item.propTypes = {
     sm: PropTypes.oneOf(GridColumns),
     md: PropTypes.oneOf(GridColumns),
     lg: PropTypes.oneOf(GridColumns),
-    xl: PropTypes.oneOf(GridColumns)
+    xl: PropTypes.oneOf(GridColumns),
+    xxl: PropTypes.oneOf(GridColumns)
 };
 Item.contextTypes = {
     grid: PropTypes.any

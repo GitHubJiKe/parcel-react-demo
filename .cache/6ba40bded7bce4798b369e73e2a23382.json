@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./_baseIsNative","loc":{"line":1,"column":27}},{"name":"./_getValue","loc":{"line":2,"column":23}}],"generated":{"js":"function e(e,a){var i=u(e,a);return r(i)?i:void 0}var r=require(\"./_baseIsNative\"),u=require(\"./_getValue\");module.exports=e;"},"hash":"caa97da29240714e5b2ee07890edaf70"}

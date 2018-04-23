@@ -232,6 +232,17 @@
       position: absolute;
       top: 8px;
       left: 8px;
+      text-align: center;
+    }
+
+    .@{upload-item}-icon {
+      color: @disabled-color;
+      font-size: 36px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -18px;
+      margin-left: -18px;
     }
 
     .@{upload-item}-thumbnail img {
@@ -353,7 +364,15 @@
     }
 
     .@{upload-item}-name {
+      margin: 8px 0 0;
+      padding: 0;
+      text-align: center;
+      line-height: @line-height-base;
       display: none;
+    }
+
+    .anticon-picture + .@{upload-item}-name {
+      display: block;
     }
 
     .@{upload-item}-uploading {

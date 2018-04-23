@@ -10,6 +10,6 @@ var MonthPicker = wrapPicker(createPicker(MonthCalendar), 'YYYY-MM');
 _extends(DatePicker, {
     RangePicker: wrapPicker(RangePicker),
     MonthPicker: MonthPicker,
-    WeekPicker: wrapPicker(WeekPicker, 'YYYY-Wo')
+    WeekPicker: wrapPicker(WeekPicker, 'gggg-wo')
 });
 export default DatePicker;

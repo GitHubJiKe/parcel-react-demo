@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function t(t){return t instanceof Function||\"[object Function]\"===Object.prototype.toString.call(t)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=t;"},"hash":"25b74d1d6e634848d6ded6d0b67300b3"}

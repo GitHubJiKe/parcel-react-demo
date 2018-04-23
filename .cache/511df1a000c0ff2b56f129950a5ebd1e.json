@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function e(e){return e instanceof Date||\"[object Date]\"===Object.prototype.toString.call(e)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e;"},"hash":"3ea0a0ac11d5ce4c2bb75da0c264cac2"}

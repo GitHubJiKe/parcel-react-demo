@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function t(t,n){if(!(t instanceof n))throw new TypeError(\"Cannot call a class as a function\")}var n=function(){function n(r){t(this,n),this._uri=r}return n.prototype.toString=function(){return this._uri},n}();module.exports=n;"},"hash":"f82a7a27b53ba6095780929bcc9c7027"}

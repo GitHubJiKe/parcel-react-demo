@@ -258,7 +258,9 @@ var FilterMenu = function (_React$Component) {
                 { className: prefixCls + '-dropdown' },
                 React.createElement(
                     _rcMenu2['default'],
-                    { multiple: multiple, onClick: this.handleMenuItemClick, prefixCls: dropdownPrefixCls + '-menu', className: dropdownMenuClass, onSelect: this.setSelectedKeys, onDeselect: this.setSelectedKeys, selectedKeys: this.state.selectedKeys },
+                    { multiple: multiple, onClick: this.handleMenuItemClick, prefixCls: dropdownPrefixCls + '-menu', className: dropdownMenuClass, onSelect: this.setSelectedKeys, onDeselect: this.setSelectedKeys, selectedKeys: this.state.selectedKeys, getPopupContainer: function getPopupContainer(triggerNode) {
+                            return triggerNode.parentNode;
+                        } },
                     this.renderMenus(column.filters)
                 ),
                 React.createElement(

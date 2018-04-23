@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./create","loc":{"line":1,"column":31}}],"generated":{"js":"\"use strict\";function e(){return(0,r.createDuration)(this)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.clone=e;var r=require(\"./create\");"},"hash":"470cba3a0784a08568235a0817f2000a"}

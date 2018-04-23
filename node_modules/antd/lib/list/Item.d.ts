@@ -29,6 +29,7 @@ export default class Item extends React.Component<ListItemProps, any> {
         md: any;
         lg: any;
         xl: any;
+        xxl: any;
     };
     static contextTypes: {
         grid: any;

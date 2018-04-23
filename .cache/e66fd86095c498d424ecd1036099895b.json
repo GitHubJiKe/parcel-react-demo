@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./Pagination","loc":{"line":1,"column":23}}],"generated":{"js":"\"use strict\";function e(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(exports,\"__esModule\",{value:!0});var t=require(\"./Pagination\"),r=e(t);exports.default=r.default;"},"hash":"d5815f4f19ed4556b47d175d2f67de79"}

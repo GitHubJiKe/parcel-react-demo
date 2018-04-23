@@ -85,5 +85,6 @@ Col.propTypes = {
     sm: objectOrNumber,
     md: objectOrNumber,
     lg: objectOrNumber,
-    xl: objectOrNumber
+    xl: objectOrNumber,
+    xxl: objectOrNumber
 };

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./_castPath","loc":{"line":1,"column":23}},{"name":"./_toKey","loc":{"line":2,"column":20}}],"generated":{"js":"function r(r,o){for(var u=0,n=(o=e(o,r)).length;null!=r&&u<n;)r=r[t(o[u++])];return u&&u==n?r:void 0}var e=require(\"./_castPath\"),t=require(\"./_toKey\");module.exports=r;"},"hash":"12d2c27248af6eb1d7ebf377a79c863e"}

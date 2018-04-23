@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./MediaQueryDispatch","loc":{"line":1,"column":33}}],"generated":{"js":"var e=require(\"./MediaQueryDispatch\");module.exports=new e;"},"hash":"aff8d7950b229e823b4a78fd78a4300f"}

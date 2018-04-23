@@ -89,3 +89,35 @@ var WithOwnProps = function (_React$Component2) {
 
 var WithOwnPropsForm = _Form2['default'].create()(WithOwnProps);
 React.createElement(WithOwnPropsForm, { name: 'foo' });
+
+var WithCreateOptions = function (_React$Component3) {
+    (0, _inherits3['default'])(WithCreateOptions, _React$Component3);
+
+    function WithCreateOptions() {
+        (0, _classCallCheck3['default'])(this, WithCreateOptions);
+        return (0, _possibleConstructorReturn3['default'])(this, (WithCreateOptions.__proto__ || Object.getPrototypeOf(WithCreateOptions)).apply(this, arguments));
+    }
+
+    (0, _createClass3['default'])(WithCreateOptions, [{
+        key: 'render',
+        value: function render() {
+            return React.createElement(
+                'div',
+                null,
+                'foo'
+            );
+        }
+    }]);
+    return WithCreateOptions;
+}(React.Component);
+
+var mapPropsToFields = function mapPropsToFields(props) {
+    var username = props.username;
+
+    return {
+        username: _Form2['default'].createFormField({ value: username })
+    };
+};
+var formOptions = { mapPropsToFields: mapPropsToFields };
+var WithCreateOptionsForm = _Form2['default'].create(formOptions)(WithCreateOptions);
+React.createElement(WithCreateOptionsForm, { username: 'foo' });

@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function e(e,t){if(\"createEvent\"in document){var n=document.createEvent(\"HTMLEvents\");n.initEvent(t,!1,!0),e.dispatchEvent(n)}}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=e;"},"hash":"2cefe56efb8bb9fd3d8b7db1447b190f"}

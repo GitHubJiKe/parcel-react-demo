@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function e(t){if(t instanceof Element){var r=t.getAttribute(\"data-offset-key\");if(r)return r;for(var n=0;n<t.childNodes.length;n++){var i=e(t.childNodes[n]);if(i)return i}}return null}module.exports=e;"},"hash":"4b3d123c29a6b4313faa1b42d045d2e3"}

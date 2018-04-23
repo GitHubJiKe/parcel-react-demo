@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"function e(e){for(var n,o=[];!(n=e.next()).done;)o.push(n.value);return o}module.exports=e;"},"hash":"e96ba741a6570d6e2631d33391e565d1"}

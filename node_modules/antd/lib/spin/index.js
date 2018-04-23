@@ -138,6 +138,28 @@ var Spin = function (_React$Component) {
             }
         }
     }, {
+        key: 'renderIndicator',
+        value: function renderIndicator() {
+            var _props = this.props,
+                prefixCls = _props.prefixCls,
+                indicator = _props.indicator;
+
+            var dotClassName = prefixCls + '-dot';
+            if (React.isValidElement(indicator)) {
+                return React.cloneElement(indicator, {
+                    className: (0, _classnames2['default'])(indicator.props.className, dotClassName)
+                });
+            }
+            return React.createElement(
+                'span',
+                { className: (0, _classnames2['default'])(dotClassName, prefixCls + '-dot-spin') },
+                React.createElement('i', null),
+                React.createElement('i', null),
+                React.createElement('i', null),
+                React.createElement('i', null)
+            );
+        }
+    }, {
         key: 'render',
         value: function render() {
             var _classNames;
@@ -148,26 +170,17 @@ var Spin = function (_React$Component) {
                 prefixCls = _a.prefixCls,
                 tip = _a.tip,
                 wrapperClassName = _a.wrapperClassName,
-                indicator = _a.indicator,
-                restProps = __rest(_a, ["className", "size", "prefixCls", "tip", "wrapperClassName", "indicator"]);var _state = this.state,
+                restProps = __rest(_a, ["className", "size", "prefixCls", "tip", "wrapperClassName"]);var _state = this.state,
                 spinning = _state.spinning,
                 notCssAnimationSupported = _state.notCssAnimationSupported;
 
             var spinClassName = (0, _classnames2['default'])(prefixCls, (_classNames = {}, (0, _defineProperty3['default'])(_classNames, prefixCls + '-sm', size === 'small'), (0, _defineProperty3['default'])(_classNames, prefixCls + '-lg', size === 'large'), (0, _defineProperty3['default'])(_classNames, prefixCls + '-spinning', spinning), (0, _defineProperty3['default'])(_classNames, prefixCls + '-show-text', !!tip || notCssAnimationSupported), _classNames), className);
             // fix https://fb.me/react-unknown-prop
-            var divProps = (0, _omit2['default'])(restProps, ['spinning', 'delay']);
-            var spinIndicator = indicator ? indicator : React.createElement(
-                'span',
-                { className: prefixCls + '-dot' },
-                React.createElement('i', null),
-                React.createElement('i', null),
-                React.createElement('i', null),
-                React.createElement('i', null)
-            );
+            var divProps = (0, _omit2['default'])(restProps, ['spinning', 'delay', 'indicator']);
             var spinElement = React.createElement(
                 'div',
                 (0, _extends3['default'])({}, divProps, { className: spinClassName }),
-                spinIndicator,
+                this.renderIndicator(),
                 tip ? React.createElement(
                     'div',
                     { className: prefixCls + '-text' },

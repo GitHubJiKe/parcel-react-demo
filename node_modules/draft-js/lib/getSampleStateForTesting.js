@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  *
  * @providesModule getSampleStateForTesting
- * @typechecks
+ * @format
  * 
  */
 
@@ -25,7 +25,7 @@ var SelectionState = require('./SelectionState');
 var BOLD = SampleDraftInlineStyle.BOLD,
     ITALIC = SampleDraftInlineStyle.ITALIC;
 
-var ENTITY_KEY = '123';
+var ENTITY_KEY = '1';
 
 var BLOCKS = [new ContentBlock({
   key: 'a',
@@ -39,6 +39,21 @@ var BLOCKS = [new ContentBlock({
   characterList: Immutable.List(Immutable.Repeat(CharacterMetadata.create({ style: BOLD, entity: ENTITY_KEY }), 5))
 }), new ContentBlock({
   key: 'c',
+  type: 'code-block',
+  text: 'Test',
+  characterList: Immutable.List(Immutable.Repeat(CharacterMetadata.EMPTY, 4))
+}), new ContentBlock({
+  key: 'd',
+  type: 'code-block',
+  text: '',
+  characterList: Immutable.List()
+}), new ContentBlock({
+  key: 'e',
+  type: 'code-block',
+  text: '',
+  characterList: Immutable.List()
+}), new ContentBlock({
+  key: 'f',
   type: 'blockquote',
   text: 'Charlie',
   characterList: Immutable.List(Immutable.Repeat(CharacterMetadata.create({ style: ITALIC, entity: null }), 7))
@@ -59,13 +74,17 @@ var contentState = new ContentState({
   entityMap: Immutable.OrderedMap(),
   selectionBefore: selectionState,
   selectionAfter: selectionState
+}).createEntity({
+  type: 'IMAGE',
+  mutability: 'IMMUTABLE',
+  data: null
 });
 
 var editorState = EditorState.createWithContent(contentState);
 editorState = EditorState.forceSelection(editorState, selectionState);
 
-function getSampleStateForTesting() {
+var getSampleStateForTesting = function getSampleStateForTesting() {
   return { editorState: editorState, contentState: contentState, selectionState: selectionState };
-}
+};
 
 module.exports = getSampleStateForTesting;

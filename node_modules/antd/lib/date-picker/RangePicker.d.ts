@@ -1,7 +1,6 @@
 /// <reference types="react" />
 import * as React from 'react';
-import * as moment from 'moment';
-export declare type RangePickerValue = moment.Moment[];
+import { RangePickerValue, RangePickerPresetRange } from './interface';
 export interface RangePickerState {
     value?: RangePickerValue;
     showDate?: RangePickerValue;
@@ -19,11 +18,14 @@ export default class RangePicker extends React.Component<any, RangePickerState> 
     componentWillReceiveProps(nextProps: any): void;
     clearSelection: (e: React.MouseEvent<HTMLElement>) => void;
     clearHoverValue: () => void;
-    handleChange: (value: moment.Moment[]) => void;
+    handleChange: (value: RangePickerValue) => void;
     handleOpenChange: (open: boolean) => void;
-    handleShowDateChange: (showDate: moment.Moment[]) => void;
+    handleShowDateChange: (showDate: RangePickerValue) => void;
     handleHoverChange: (hoverValue: any) => void;
-    setValue(value: moment.Moment[], hidePanel?: boolean): void;
+    handleRangeMouseLeave: () => void;
+    handleCalendarInputSelect: (value: RangePickerValue) => void;
+    handleRangeClick: (value: RangePickerPresetRange) => void;
+    setValue(value: RangePickerValue, hidePanel?: boolean): void;
     focus(): void;
     blur(): void;
     savePicker: (node: HTMLSpanElement) => void;

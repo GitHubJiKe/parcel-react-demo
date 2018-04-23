@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./_defineProperty","loc":{"line":1,"column":29}}],"generated":{"js":"function e(e,o,u){\"__proto__\"==o&&r?r(e,o,{configurable:!0,enumerable:!0,value:u,writable:!0}):e[o]=u}var r=require(\"./_defineProperty\");module.exports=e;"},"hash":"e3a8495134fa7c8dd8287c25732a5f37"}

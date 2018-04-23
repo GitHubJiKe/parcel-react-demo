@@ -7,7 +7,7 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  *
  * @providesModule RichTextEditorUtil
- * @typechecks
+ * @format
  * @flow
  */
 
@@ -94,7 +94,10 @@ const RichTextEditorUtil = {
 
     if (blockBefore && blockBefore.getType() === 'atomic') {
       const blockMap = content.getBlockMap().delete(blockBefore.getKey());
-      var withoutAtomicBlock = content.merge({ blockMap, selectionAfter: selection });
+      var withoutAtomicBlock = content.merge({
+        blockMap,
+        selectionAfter: selection
+      });
       if (withoutAtomicBlock !== content) {
         return EditorState.push(editorState, withoutAtomicBlock, 'remove-range');
       }
@@ -272,8 +275,8 @@ const RichTextEditorUtil = {
   },
 
   /**
-   * When a collapsed cursor is at the start of the first styled block, or 
-   * an empty styled block, changes block to 'unstyled'. Returns null if 
+   * When a collapsed cursor is at the start of the first styled block, or
+   * an empty styled block, changes block to 'unstyled'. Returns null if
    * block or selection does not meet that criteria.
    */
   tryToRemoveBlockStyle: function (editorState: EditorState): ?ContentState {
@@ -291,7 +294,7 @@ const RichTextEditorUtil = {
 
       var type = block.getType();
       var blockBefore = content.getBlockBefore(key);
-      if (type === 'code-block' && blockBefore && blockBefore.getType() === 'code-block') {
+      if (type === 'code-block' && blockBefore && blockBefore.getType() === 'code-block' && blockBefore.getLength() !== 0) {
         return null;
       }
 

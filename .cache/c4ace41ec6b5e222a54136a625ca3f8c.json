@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./isFunction","loc":{"line":1,"column":25}},{"name":"./isLength","loc":{"line":2,"column":23}}],"generated":{"js":"function e(e){return null!=e&&r(e.length)&&!n(e)}var n=require(\"./isFunction\"),r=require(\"./isLength\");module.exports=e;"},"hash":"18972bb69332fdada30831a75cd1a9f6"}

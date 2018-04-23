@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./_freeGlobal","loc":{"line":1,"column":25}}],"generated":{"js":"var e=require(\"./_freeGlobal\"),t=\"object\"==typeof self&&self&&self.Object===Object&&self,l=e||t||Function(\"return this\")();module.exports=l;"},"hash":"ec9fa1f746f76146ee0078696dd8adda"}

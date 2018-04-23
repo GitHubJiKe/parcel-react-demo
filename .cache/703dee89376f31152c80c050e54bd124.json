@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"react","loc":{"line":1,"column":18}}],"generated":{"js":"\"use strict\";function e(e){return e&&e.__esModule?e:{default:e}}function r(e){return e}function t(e){return n.default.Children.map(e,r)}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.default=t;var u=require(\"react\"),n=e(u);"},"hash":"94f6c1c25d0fd011d43381d10a283019"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./Align","loc":{"line":2,"column":18}}],"generated":{"js":"\"use strict\";function e(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(exports,\"__esModule\",{value:!0});var t=require(\"./Align\"),r=e(t);exports.default=r.default;"},"hash":"334341777064497af7e1ab023669e2e9"}

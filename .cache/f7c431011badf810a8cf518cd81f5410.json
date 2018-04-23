@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./getSelectionOffsetKeyForNode","loc":{"line":16,"column":43}}],"generated":{"js":"\"use strict\";function e(e){for(var t=e;t&&t!==document.documentElement;){var n=r(t);if(null!=n)return n;t=t.parentNode}return null}var r=require(\"./getSelectionOffsetKeyForNode\");module.exports=e;"},"hash":"cbf748801163a5a23bb1771ff3aaa6d4"}

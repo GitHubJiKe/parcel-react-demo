@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";function r(r,t){i[r]=t}function t(r){var t=[];for(var e in r)t.push({unit:e,priority:i[e]});return t.sort(function(r,t){return r.priority-t.priority}),t}Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.addUnitPriority=r,exports.getPrioritizedUnits=t;var i={};"},"hash":"4858cb5bcb4fc18dfd611abd3cb0187c"}

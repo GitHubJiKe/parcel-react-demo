@@ -48,6 +48,7 @@ var DropdownButton = function (_React$Component) {
             var dropdownProps = {
                 align: align,
                 overlay: overlay,
+                disabled: disabled,
                 trigger: disabled ? [] : trigger,
                 onVisibleChange: onVisibleChange,
                 placement: placement,
@@ -69,7 +70,7 @@ var DropdownButton = function (_React$Component) {
                     dropdownProps,
                     React.createElement(
                         Button,
-                        { type: type, disabled: disabled },
+                        { type: type },
                         React.createElement(Icon, { type: 'down' })
                     )
                 )

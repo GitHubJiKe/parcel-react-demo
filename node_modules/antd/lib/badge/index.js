@@ -88,17 +88,17 @@ var Badge = function (_React$Component) {
                 text = _a.text,
                 offset = _a.offset,
                 restProps = __rest(_a, ["count", "showZero", "prefixCls", "scrollNumberPrefixCls", "overflowCount", "className", "style", "children", "dot", "status", "text", "offset"]);
-            var isDot = dot || status;
             var displayCount = count > overflowCount ? overflowCount + '+' : count;
+            var isZero = displayCount === '0' || displayCount === 0;
+            var isDot = dot && !isZero || status;
             // dot mode don't need count
             if (isDot) {
                 displayCount = '';
             }
-            var isZero = displayCount === '0' || displayCount === 0;
             var isEmpty = displayCount === null || displayCount === undefined || displayCount === '';
             var hidden = (isEmpty || isZero && !showZero) && !isDot;
             var statusCls = (0, _classnames2['default'])((_classNames = {}, (0, _defineProperty3['default'])(_classNames, prefixCls + '-status-dot', !!status), (0, _defineProperty3['default'])(_classNames, prefixCls + '-status-' + status, !!status), _classNames));
-            var scrollNumberCls = (0, _classnames2['default'])((_classNames2 = {}, (0, _defineProperty3['default'])(_classNames2, prefixCls + '-dot', isDot), (0, _defineProperty3['default'])(_classNames2, prefixCls + '-count', !isDot), (0, _defineProperty3['default'])(_classNames2, prefixCls + '-multiple-words', count && count.toString && count.toString().length > 1), (0, _defineProperty3['default'])(_classNames2, prefixCls + '-status-' + status, !!status), _classNames2));
+            var scrollNumberCls = (0, _classnames2['default'])((_classNames2 = {}, (0, _defineProperty3['default'])(_classNames2, prefixCls + '-dot', isDot), (0, _defineProperty3['default'])(_classNames2, prefixCls + '-count', !isDot), (0, _defineProperty3['default'])(_classNames2, prefixCls + '-multiple-words', !isDot && count && count.toString && count.toString().length > 1), (0, _defineProperty3['default'])(_classNames2, prefixCls + '-status-' + status, !!status), _classNames2));
             var badgeCls = (0, _classnames2['default'])(className, prefixCls, (_classNames3 = {}, (0, _defineProperty3['default'])(_classNames3, prefixCls + '-status', !!status), (0, _defineProperty3['default'])(_classNames3, prefixCls + '-not-a-wrapper', !children), _classNames3));
             var styleWithOffset = offset ? (0, _extends3['default'])({ marginTop: offset[0], marginLeft: offset[1] }, style) : style;
             // <Badge status="success" />
